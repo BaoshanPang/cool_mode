@@ -24,8 +24,8 @@
   ;; Syntax highlighting rules
   (setq font-lock-defaults
         '((
-           ("\\<\\(if\\|else\\|while\\|return\\)\\>" . font-lock-keyword-face)
-           ("\\<\\(int\\|float\\|char\\)\\>" . font-lock-type-face)
+           ("\\<\\(if\\|then\\|else\\|fi\\|while\\|return\\|class\\|new\\)\\>" . font-lock-keyword-face)
+           ("\\<\\(Int\\|Bool\\|String\\|Object\\)\\>" . font-lock-type-face)
            ))))
 
 (add-to-list 'auto-mode-alist '("\\.cl\\'" . cool-mode))
